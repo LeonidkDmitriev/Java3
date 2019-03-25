@@ -24,8 +24,8 @@ public class Main {
             System.out.print(" " + myList.get(i));
 
         }
-/*****************большое задание*********************************/
 
+/*****************большое задание*********************************/
         Box<Apple> appleBox = new Box<>();
         for(int i = 0; i <5; i++){               //положим 5 яблок
             appleBox.addFruit(new Apple());
@@ -48,5 +48,7 @@ public class Main {
 
         //убедимся, что яблоки пересыпались в новую коробку
         System.out.print("\n вес новой коробки " + appleBox2.getTotalWeight());
+
+
     }
 }
